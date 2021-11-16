@@ -1,8 +1,10 @@
 # tiktokclone
 
-## Project setup
+## Dependencies
 ```
-npm install
+Vue3
+Vue-router@next
+axios
 ```
 
 ### Compiles and hot-reloads for development
@@ -10,15 +12,3 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
