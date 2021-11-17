@@ -4,7 +4,7 @@
         <h2 class="current-user__post-header">Посты</h2>
         <!-- Из-за неработающего Get User Feed в API, использую плейсхолдеры для демонстрации -->
         <div class="current-user__feed">
-            <div class="current-user__feed-item">
+            <!-- <div class="current-user__feed-item">
                 <h1 class="current-user__feed-viewcount">&#9658; 220.5K</h1>
                 <video class="current-user__feed-video" controls poster="https://p16-sign-sg.tiktokcdn.com/obj/tos-alisg-p-0037/e31a9812e60940d084d78b6318eb668f_1631373232?x-expires=1637118000&x-signature=Xhu4SxKaEoWZw9NC1FI%2FUBCzPro%3D">
                     <source src="https://v39-eu.tiktokcdn.com/0d2bd076dcffec30603cf859cb77c24f/619478c8/video/tos/alisg/tos-alisg-pve-0037c001/449c8bd66c7941a5ba06ef064081e855/?a=1233&br=3502&bt=1751&cd=0%7C0%7C1&ch=0&cr=0&cs=0&cv=1&dr=0&ds=3&er=&ft=wZ~R_F5qkag3-I&l=20211116213631010190218226450D86B9&lr=tiktok_m&mime_type=video_mp4&net=0&pl=0&qs=0&rc=amttNjU6ZjtmNzMzODczNEApNDhoOTozNWU2NzdkM2Y0ZGdtcTBxcjRvY3JgLS1kMS1zcy5iNDJfMTU2NDMyXjYvNTI6Yw%3D%3D&vl=&vr=">
@@ -39,15 +39,16 @@
                 <video class="current-user__feed-video" controls poster="https://p16-sign-sg.tiktokcdn.com/obj/tos-alisg-p-0037/e31a9812e60940d084d78b6318eb668f_1631373232?x-expires=1637118000&x-signature=Xhu4SxKaEoWZw9NC1FI%2FUBCzPro%3D">
                     <source src="https://v39-eu.tiktokcdn.com/0d2bd076dcffec30603cf859cb77c24f/619478c8/video/tos/alisg/tos-alisg-pve-0037c001/449c8bd66c7941a5ba06ef064081e855/?a=1233&br=3502&bt=1751&cd=0%7C0%7C1&ch=0&cr=0&cs=0&cv=1&dr=0&ds=3&er=&ft=wZ~R_F5qkag3-I&l=20211116213631010190218226450D86B9&lr=tiktok_m&mime_type=video_mp4&net=0&pl=0&qs=0&rc=amttNjU6ZjtmNzMzODczNEApNDhoOTozNWU2NzdkM2Y0ZGdtcTBxcjRvY3JgLS1kMS1zcy5iNDJfMTU2NDMyXjYvNTI6Yw%3D%3D&vl=&vr=">
                 </video>
-            </div>
+            </div> -->
             <!-- Здесь то, как выглядела бы верстка, если бы видео и превью загружались из user-feed.json или реквеста -->
-            <!-- Можно раскомментировать блок ниже и закомментировать плейсхолдеры выше и увидеть результаты -->
-            <!-- <div v-for="video in videos" :key="video.id" class="current-user__feed-item">
+            <!-- Можно закомментировать блок ниже и раскомментировать плейсхолдеры выше и увидеть нормальную верстку с видео-->
+            <div v-for="video in videos.slice(0,videoNum)" :key="video.id" class="current-user__feed-item">
                 <h1 class="current-user__feed-viewcount">&#9658; {{video.stats.playCount}}</h1>
                 <video class="current-user__feed-video" controls :poster="video.video.cover">
                     <source :src="video.video.playAddr">
-                </video>
-            </div> -->
+                </video> 
+            </div>
+            <div v-intersection="loadMorePosts" class="observer"></div>
         </div>
     </div>
     <div v-else class="lds-dual-ring"></div>
@@ -64,6 +65,13 @@ export default {
             stats:{},
             loadingData: false,
             videos:[], //=> Массив видео пользователя
+            videoNum: 20,
+        }
+    },
+    methods:{
+        loadMorePosts(){
+            console.log("memememeeee");
+            this.videoNum+=10;
         }
     },
     async mounted(){

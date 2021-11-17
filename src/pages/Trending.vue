@@ -1,8 +1,12 @@
 <template>
     <!-- Трендинговая страница, содержащая в себе "горячие посты"  -->
-    <div class="feed">
-        <div v-if="loadingData" class="lds-dual-ring"></div> <!-- загрузочный спиннер -->
+    <div v-if="loadingData" class="lds-dual-ring"></div>
+    <div v-else class="feed">
+         <!-- загрузочный спиннер -->
         <post v-for="post in posts" :key="post.id" :post="post"></post>
+        <div v-if="loadingMoreData" class="lds-dual-ring"></div>
+        <!-- элемент для подгрузки новых видео при его пересечении с помощью IntersectionObserver API (вместо пагинации) -->
+        <div v-intersection="loadMorePosts" class="observer"></div> 
     </div>
 </template>
 
@@ -12,28 +16,49 @@
         data(){
             return{
                 posts: [],
+                postsNum: 10,
                 loadingData: false,
+                loadingMoreData: false,
             }
         },
         methods:{
-
+            async loadPosts(){
+                // при монтировке страницы в DOM, считываем "горячие" посты с сервера 
+                // в поле "posts" свойства data
+                let limit = this.postsNum;
+                this.loadingData = true;
+                let trending = await fetchPosts(limit);
+                if(trending !== null) //if request successfull
+                {
+                    this.loadingData = false;
+                    this.posts = trending;
+                }
+                else{
+                    setTimeout(()=>{
+                        this.$router.push('error'); // error case redirect
+                    },1500)
+                }
+            },
+            async loadMorePosts(){
+                console.log("LoadMorePostsKEEEEEEEEEEEEEEK");
+                this.postsNum+=10;
+                let limit = this.postsNum;
+                this.loadingMoreData = true;
+                let trending = await fetchPosts(limit);
+                if(trending !== null) //if request successfull
+                {
+                    this.loadingMoreData = false;
+                    this.posts = [...this.posts, ...trending.slice(this.postsNum-10,this.postsNum)]
+                }
+                else{
+                    setTimeout(()=>{
+                        this.$router.push('error'); // error case redirect
+                    },1500)
+                }
+            }
         },
-        async mounted(){
-            // при монтировке страницы в DOM, считываем "горячие" посты с сервера 
-            // в поле "posts" свойства data
-            let limit = 10;
-            this.loadingData = true;
-            let trending = await fetchPosts(limit);
-            if(trending !== null) //if request successfull
-            {
-                this.loadingData = false;
-                this.posts = trending;
-            }
-            else{
-                setTimeout(()=>{
-                    this.$router.push('error'); // error case redirect
-                },1500)
-            }
+        mounted(){
+            this.loadPosts();
         }
     }
 

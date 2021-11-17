@@ -1,5 +1,6 @@
 <template>
-  <div class="post">
+    <!-- Компонент одного поста с видео -->
+    <div class="post">
         <user-info :user="post.authorMeta"></user-info>
         <div class="post__header">
             <p class="post__description">{{post.text}}</p>
@@ -26,7 +27,7 @@
                 </button>
             </div>
         </div>
-  </div>
+    </div>
 </template>
 
 <script>
@@ -49,7 +50,6 @@ export default {
 <style scoped>
     .post{
         padding: 10px 0px 10px 25px;
-        /* width: 95vw; */
         max-width:550px;
         border-bottom: 1px solid rgba(255,255,255,0.7);
         border-bottom-left-radius: 20px;
@@ -105,7 +105,6 @@ export default {
         font-size:1.5em;
         background-color:rgb(61, 61, 61);
         border-radius: 50%;
-        
     }
     .post__stat-count{
         margin:10px 0;

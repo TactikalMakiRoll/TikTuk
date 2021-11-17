@@ -1,19 +1,18 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import components from '@/components/UI'
-// import directives from "@/directives"
 import router from "@/router/router.js"
-// import store from "@/store/index.js"
+import VIntersection from './directives/VIntersection'
 
 const app = createApp(App)
 
+// подключаем все компоненты в приложение
 components.forEach((component)=>{
     app.component(component.name,component)
 })
 
-// directives.forEach((directive)=>{
-//     app.directive(directive.name,directive);
-// })
+// и директиву для динамической подгрузки (вместо пагинации)
+app.directive("intersection",VIntersection);
 
 app
 .use(router)
