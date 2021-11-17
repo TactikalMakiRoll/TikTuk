@@ -40,7 +40,6 @@
                 }
             },
             async loadMorePosts(){
-                console.log("LoadMorePostsKEEEEEEEEEEEEEEK");
                 this.postsNum+=10;
                 let limit = this.postsNum;
                 this.loadingMoreData = true;
@@ -55,7 +54,7 @@
                         this.$router.push('error'); // error case redirect
                     },1500)
                 }
-            }
+            },
         },
         mounted(){
             this.loadPosts();

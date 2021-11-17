@@ -56,8 +56,8 @@
 
 <script>
 // import fetchUserFeed from "@/fetchUserFeed.js"
-
 import fetchUserInfo from "@/fetchUserInfo.js"
+
 export default {
     data(){
         return{
@@ -70,9 +70,8 @@ export default {
     },
     methods:{
         loadMorePosts(){
-            console.log("memememeeee");
             this.videoNum+=10;
-        }
+        },
     },
     async mounted(){
         //получаем данные о пользователе через переданный ранее uniqueID
@@ -98,6 +97,7 @@ export default {
     }
 
 }
+
 </script>
 <style scoped>
     .lds-dual-ring{

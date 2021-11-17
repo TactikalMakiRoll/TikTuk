@@ -11,7 +11,7 @@
         </div>
         <div class="post__body">
             <div class="post__video-wrapper">
-                <video class="post__video" controls :poster="this.post.covers.default">
+                <video class="post__video" controls :poster="this.post.covers.default" muted>
                     <source :src="this.post.videoUrl">
                     Your browser does not support the video tag.
                 </video>
@@ -43,8 +43,31 @@ export default {
     methods:{
     },
     mounted(){
+        // код автовоспроизведения видео при полной видимости его на странице
+        const video = document.querySelectorAll('.post__video')
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                const element = entry.target;
+                if (entry.isIntersecting) {
+                    element.play();
+                }
+                else{
+                    element.pause();
+                }
+            })
+        }, { threshold: [1],
+        root: null,
+        rootMargin: '0px',});
+        video.forEach((elem)=>{
+            observer.observe(elem);
+        })
+        
+    },
+    unmounted(){
+
     }
 }
+
 </script>
 
 <style scoped>
