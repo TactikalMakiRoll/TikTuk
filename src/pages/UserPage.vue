@@ -11,46 +11,44 @@
                 </video>
             </div>
             <div class="current-user__feed-item">
-                <h1 class="current-user__feed-viewcount">&#9658; 314.5K</h1>
-                <video class="current-user__feed-video" controls poster="https://p16-sign-sg.tiktokcdn.com/obj/tos-alisg-p-0037/e31a9812e60940d084d78b6318eb668f_1631373232?x-expires=1637118000&x-signature=Xhu4SxKaEoWZw9NC1FI%2FUBCzPro%3D">
-                    <source src="https://v39-eu.tiktokcdn.com/0d2bd076dcffec30603cf859cb77c24f/619478c8/video/tos/alisg/tos-alisg-pve-0037c001/449c8bd66c7941a5ba06ef064081e855/?a=1233&br=3502&bt=1751&cd=0%7C0%7C1&ch=0&cr=0&cs=0&cv=1&dr=0&ds=3&er=&ft=wZ~R_F5qkag3-I&l=20211116213631010190218226450D86B9&lr=tiktok_m&mime_type=video_mp4&net=0&pl=0&qs=0&rc=amttNjU6ZjtmNzMzODczNEApNDhoOTozNWU2NzdkM2Y0ZGdtcTBxcjRvY3JgLS1kMS1zcy5iNDJfMTU2NDMyXjYvNTI6Yw%3D%3D&vl=&vr=">
-                </video>
-            </div><div class="current-user__feed-item">
-                <h1 class="current-user__feed-viewcount">&#9658; 840.5K</h1>
-                <video class="current-user__feed-video" controls poster="https://p16-sign-sg.tiktokcdn.com/obj/tos-alisg-p-0037/e31a9812e60940d084d78b6318eb668f_1631373232?x-expires=1637118000&x-signature=Xhu4SxKaEoWZw9NC1FI%2FUBCzPro%3D">
-                    <source src="https://v39-eu.tiktokcdn.com/0d2bd076dcffec30603cf859cb77c24f/619478c8/video/tos/alisg/tos-alisg-pve-0037c001/449c8bd66c7941a5ba06ef064081e855/?a=1233&br=3502&bt=1751&cd=0%7C0%7C1&ch=0&cr=0&cs=0&cv=1&dr=0&ds=3&er=&ft=wZ~R_F5qkag3-I&l=20211116213631010190218226450D86B9&lr=tiktok_m&mime_type=video_mp4&net=0&pl=0&qs=0&rc=amttNjU6ZjtmNzMzODczNEApNDhoOTozNWU2NzdkM2Y0ZGdtcTBxcjRvY3JgLS1kMS1zcy5iNDJfMTU2NDMyXjYvNTI6Yw%3D%3D&vl=&vr=">
-                </video>
-            </div><div class="current-user__feed-item">
-                <h1 class="current-user__feed-viewcount">&#9658; 312.5K</h1>
-                <video class="current-user__feed-video" controls poster="https://p16-sign-sg.tiktokcdn.com/obj/tos-alisg-p-0037/e31a9812e60940d084d78b6318eb668f_1631373232?x-expires=1637118000&x-signature=Xhu4SxKaEoWZw9NC1FI%2FUBCzPro%3D">
-                    <source src="https://v39-eu.tiktokcdn.com/0d2bd076dcffec30603cf859cb77c24f/619478c8/video/tos/alisg/tos-alisg-pve-0037c001/449c8bd66c7941a5ba06ef064081e855/?a=1233&br=3502&bt=1751&cd=0%7C0%7C1&ch=0&cr=0&cs=0&cv=1&dr=0&ds=3&er=&ft=wZ~R_F5qkag3-I&l=20211116213631010190218226450D86B9&lr=tiktok_m&mime_type=video_mp4&net=0&pl=0&qs=0&rc=amttNjU6ZjtmNzMzODczNEApNDhoOTozNWU2NzdkM2Y0ZGdtcTBxcjRvY3JgLS1kMS1zcy5iNDJfMTU2NDMyXjYvNTI6Yw%3D%3D&vl=&vr=">
-                </video>
-            </div><div class="current-user__feed-item">
-                <h1 class="current-user__feed-viewcount">&#9658; 315.5K</h1>
+                <h1 class="current-user__feed-viewcount">&#9658; 220.5K</h1>
                 <video class="current-user__feed-video" controls poster="https://p16-sign-sg.tiktokcdn.com/obj/tos-alisg-p-0037/e31a9812e60940d084d78b6318eb668f_1631373232?x-expires=1637118000&x-signature=Xhu4SxKaEoWZw9NC1FI%2FUBCzPro%3D">
                     <source src="https://v39-eu.tiktokcdn.com/0d2bd076dcffec30603cf859cb77c24f/619478c8/video/tos/alisg/tos-alisg-pve-0037c001/449c8bd66c7941a5ba06ef064081e855/?a=1233&br=3502&bt=1751&cd=0%7C0%7C1&ch=0&cr=0&cs=0&cv=1&dr=0&ds=3&er=&ft=wZ~R_F5qkag3-I&l=20211116213631010190218226450D86B9&lr=tiktok_m&mime_type=video_mp4&net=0&pl=0&qs=0&rc=amttNjU6ZjtmNzMzODczNEApNDhoOTozNWU2NzdkM2Y0ZGdtcTBxcjRvY3JgLS1kMS1zcy5iNDJfMTU2NDMyXjYvNTI6Yw%3D%3D&vl=&vr=">
                 </video>
             </div>
             <div class="current-user__feed-item">
-                <h1 class="current-user__feed-viewcount">&#9658; 300.5K</h1>
+                <h1 class="current-user__feed-viewcount">&#9658; 220.5K</h1>
                 <video class="current-user__feed-video" controls poster="https://p16-sign-sg.tiktokcdn.com/obj/tos-alisg-p-0037/e31a9812e60940d084d78b6318eb668f_1631373232?x-expires=1637118000&x-signature=Xhu4SxKaEoWZw9NC1FI%2FUBCzPro%3D">
                     <source src="https://v39-eu.tiktokcdn.com/0d2bd076dcffec30603cf859cb77c24f/619478c8/video/tos/alisg/tos-alisg-pve-0037c001/449c8bd66c7941a5ba06ef064081e855/?a=1233&br=3502&bt=1751&cd=0%7C0%7C1&ch=0&cr=0&cs=0&cv=1&dr=0&ds=3&er=&ft=wZ~R_F5qkag3-I&l=20211116213631010190218226450D86B9&lr=tiktok_m&mime_type=video_mp4&net=0&pl=0&qs=0&rc=amttNjU6ZjtmNzMzODczNEApNDhoOTozNWU2NzdkM2Y0ZGdtcTBxcjRvY3JgLS1kMS1zcy5iNDJfMTU2NDMyXjYvNTI6Yw%3D%3D&vl=&vr=">
                 </video>
             </div>
             <div class="current-user__feed-item">
-                <h1 class="current-user__feed-viewcount">&#9658; 315.5K</h1>
+                <h1 class="current-user__feed-viewcount">&#9658; 220.5K</h1>
                 <video class="current-user__feed-video" controls poster="https://p16-sign-sg.tiktokcdn.com/obj/tos-alisg-p-0037/e31a9812e60940d084d78b6318eb668f_1631373232?x-expires=1637118000&x-signature=Xhu4SxKaEoWZw9NC1FI%2FUBCzPro%3D">
                     <source src="https://v39-eu.tiktokcdn.com/0d2bd076dcffec30603cf859cb77c24f/619478c8/video/tos/alisg/tos-alisg-pve-0037c001/449c8bd66c7941a5ba06ef064081e855/?a=1233&br=3502&bt=1751&cd=0%7C0%7C1&ch=0&cr=0&cs=0&cv=1&dr=0&ds=3&er=&ft=wZ~R_F5qkag3-I&l=20211116213631010190218226450D86B9&lr=tiktok_m&mime_type=video_mp4&net=0&pl=0&qs=0&rc=amttNjU6ZjtmNzMzODczNEApNDhoOTozNWU2NzdkM2Y0ZGdtcTBxcjRvY3JgLS1kMS1zcy5iNDJfMTU2NDMyXjYvNTI6Yw%3D%3D&vl=&vr=">
                 </video>
             </div>
-        </div> 
-        <!-- Если бы API работал, блок Feed выглядел бы как-то так -->
-        <!-- <div v-for="video in videos" :key="video.id" class="current-user__feed-item">
-            <h1 class="current-user__feed-viewcount">&#9658; {{video.viewCount}}</h1>
-            <video class="current-user__feed-video" controls :poster="this.video.poster">
-                <source :src="this.video.playURL">
-            </video>
-        </div> -->
+            <div class="current-user__feed-item">
+                <h1 class="current-user__feed-viewcount">&#9658; 220.5K</h1>
+                <video class="current-user__feed-video" controls poster="https://p16-sign-sg.tiktokcdn.com/obj/tos-alisg-p-0037/e31a9812e60940d084d78b6318eb668f_1631373232?x-expires=1637118000&x-signature=Xhu4SxKaEoWZw9NC1FI%2FUBCzPro%3D">
+                    <source src="https://v39-eu.tiktokcdn.com/0d2bd076dcffec30603cf859cb77c24f/619478c8/video/tos/alisg/tos-alisg-pve-0037c001/449c8bd66c7941a5ba06ef064081e855/?a=1233&br=3502&bt=1751&cd=0%7C0%7C1&ch=0&cr=0&cs=0&cv=1&dr=0&ds=3&er=&ft=wZ~R_F5qkag3-I&l=20211116213631010190218226450D86B9&lr=tiktok_m&mime_type=video_mp4&net=0&pl=0&qs=0&rc=amttNjU6ZjtmNzMzODczNEApNDhoOTozNWU2NzdkM2Y0ZGdtcTBxcjRvY3JgLS1kMS1zcy5iNDJfMTU2NDMyXjYvNTI6Yw%3D%3D&vl=&vr=">
+                </video>
+            </div>
+            <div class="current-user__feed-item">
+                <h1 class="current-user__feed-viewcount">&#9658; 220.5K</h1>
+                <video class="current-user__feed-video" controls poster="https://p16-sign-sg.tiktokcdn.com/obj/tos-alisg-p-0037/e31a9812e60940d084d78b6318eb668f_1631373232?x-expires=1637118000&x-signature=Xhu4SxKaEoWZw9NC1FI%2FUBCzPro%3D">
+                    <source src="https://v39-eu.tiktokcdn.com/0d2bd076dcffec30603cf859cb77c24f/619478c8/video/tos/alisg/tos-alisg-pve-0037c001/449c8bd66c7941a5ba06ef064081e855/?a=1233&br=3502&bt=1751&cd=0%7C0%7C1&ch=0&cr=0&cs=0&cv=1&dr=0&ds=3&er=&ft=wZ~R_F5qkag3-I&l=20211116213631010190218226450D86B9&lr=tiktok_m&mime_type=video_mp4&net=0&pl=0&qs=0&rc=amttNjU6ZjtmNzMzODczNEApNDhoOTozNWU2NzdkM2Y0ZGdtcTBxcjRvY3JgLS1kMS1zcy5iNDJfMTU2NDMyXjYvNTI6Yw%3D%3D&vl=&vr=">
+                </video>
+            </div>
+            <!-- Здесь то, как выглядела бы верстка, если бы видео и превью загружались из user-feed.json или реквеста -->
+            <!-- Можно раскомментировать блок ниже и закомментировать плейсхолдеры выше и увидеть результаты -->
+            <!-- <div v-for="video in videos" :key="video.id" class="current-user__feed-item">
+                <h1 class="current-user__feed-viewcount">&#9658; {{video.stats.playCount}}</h1>
+                <video class="current-user__feed-video" controls :poster="video.video.cover">
+                    <source :src="video.video.playAddr">
+                </video>
+            </div> -->
+        </div>
     </div>
     <div v-else class="lds-dual-ring"></div>
 </template>
@@ -65,7 +63,7 @@ export default {
             user:{},
             stats:{},
             loadingData: false,
-            //videos:[], //=> Массив видео пользователя
+            videos:[], //=> Массив видео пользователя
         }
     },
     async mounted(){
@@ -77,13 +75,15 @@ export default {
             this.loadingData = false;
             this.user = userdata.user;
             this.stats = userdata.stats;
+            const userFeed = require("@/../user-feed.json"); // ссылки на видео и их превью в этом файле ведут к нерабочим видео и картинкам
+            this.videos = userFeed.itemList; 
         }
         else{
             setTimeout(()=>{
                 this.$router.replace('error'); // error case redirect
             },1500)
         }
-
+        
         // let userfeed = await fetchUserFeed(this.$route.params.name); // => получение видео пользователя
         // this.videos = userfeed;
         // console.log(userfeed);
