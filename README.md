@@ -1,10 +1,6 @@
 # A TikTok clone with less functionality
 A project I made as a Vue.js first ever practise, using TikTok API and watching all those cringy videos
 
-Link to project: TBD
-
-![alt tag](http://placecorgi.com/1200/650)
-
 ## How It's Made:
 
 Tech used: HTML, CSS, JavaScript, Vue.js
