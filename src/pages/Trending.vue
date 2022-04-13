@@ -28,6 +28,7 @@
                 let limit = this.postsNum;
                 this.loadingData = true;
                 let trending = await fetchPosts(limit);
+                console.log(trending);
                 if(trending !== null) //if request successfull
                 {
                     this.loadingData = false;
