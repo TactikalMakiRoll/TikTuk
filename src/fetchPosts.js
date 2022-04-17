@@ -11,7 +11,7 @@ async function fetchPosts(_limit){
             },
             headers: {
                 'x-rapidapi-host': 'tiktok33.p.rapidapi.com',
-                'x-rapidapi-key': '61c3f265f7msh42816f8cda4bd05p14d05ajsnd0820342e89a'
+                'x-rapidapi-key': '3ac6f987f7mshb869fafe1a34da5p16ab3djsn954aac1f503c'
             },
         });
         return response.data;
