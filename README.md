@@ -28,4 +28,4 @@ axios
 ```
 npm run serve
 ```
-
+## To see the full functionality, please register on RapidAPI and use your own key for this tiktok API: https://rapidapi.com/premium-apis-premium-apis-default/api/tiktok33/, as I reached my limit on my account
