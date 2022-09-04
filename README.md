@@ -24,7 +24,6 @@ axios
 ```
 npm run serve
 ```
-## Screenshots of functionality
-![image](https://user-images.githubusercontent.com/51524264/163723572-c1241973-5daa-472c-bf1c-f49e722b8262.png)
+## Screenshot of functionality
 ![image](https://user-images.githubusercontent.com/51524264/163723583-25e5b269-06f1-431a-b62b-ec445a7b5633.png)
 
